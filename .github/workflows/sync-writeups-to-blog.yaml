@@ -15,7 +15,7 @@ jobs:
       - name: Configure git
         run: |
           git config --global user.email "tara.schoenherr@gmail.com"
-          git config --global user.name "Tara-Cloud"
+          git config --global user.name "Tara s"
 
       - name: Sync directory
         env:
