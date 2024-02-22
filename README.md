@@ -22,10 +22,10 @@ _[Learning Path Details on TryHackMe](https://tryhackme.com/path/outline/attacki
 
 _[Learning Path Details on TryHackMe](https://tryhackme.com/path/outline/introtocyber)_
 
-| Room                               | Writeup                                                                                                                   | Video Walkthrough | Path Section                  | Completed | Notes |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------------------- | --------- | ----- |
-| Introduction to Offensive Security | [Writeup](/tryhackme-room-walkthroughs/introduction-to-cybersecurity-learning-path/Introduction-to-Offensive-Security.md) |                   | Introduction to Cybersecurity |           |       |
-| AWS Basic Concepts                 | [Writeup](/tryhackme-room-walkthroughs/attacking-and-defending-aws-learning-path/AWS-Basic-Concepts.md)                   |                   | Introduction to Cybersecurity |           |       |
+| Room                               | Writeup                                                                                                                   | Video Walkthrough | Path Section                  | Completed             | Notes |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------------------- | --------------------- | ----- |
+| Introduction to Offensive Security | [Writeup](/tryhackme-room-walkthroughs/introduction-to-cybersecurity-learning-path/Introduction-to-Offensive-Security.md) |                   | Introduction to Cybersecurity | ✅ 18th February 2023 |       |
+| AWS Basic Concepts                 | [Writeup](/tryhackme-room-walkthroughs/attacking-and-defending-aws-learning-path/AWS-Basic-Concepts.md)                   |                   | Introduction to Cybersecurity | - [ ]                 |       |
 
 ## Red Teaming
 

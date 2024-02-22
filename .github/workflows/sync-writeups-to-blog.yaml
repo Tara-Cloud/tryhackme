@@ -19,7 +19,7 @@ jobs:
 
       - name: Sync directory
         env:
-          TARGET_REPO: https://github.com/Tara-Cloud/vercel-personal-site
+          TARGET_REPO: https://github.com/Tara-Cloud/vercel-personal-site.git
           TARGET_REPO_TOKEN: ${{ secrets.BLOG_SYNC_TOKEN }}
           SOURCE_DIR: tryhackme-room-writeups
           TARGET_DIR: src/pages/blog/tryhackme/tryhackme-room-writeups
