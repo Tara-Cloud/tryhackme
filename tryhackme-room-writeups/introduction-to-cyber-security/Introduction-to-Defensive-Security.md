@@ -1,5 +1,5 @@
 ---
-roomName: Introduction to Defensive Security
+roomName: Introduction to Defensive Security Test
 learningPath: Introduction to Cyber Security
 pubDate: Today
 img: https://fakeimg.pl/640x360

@@ -1,5 +1,5 @@
 ---
-roomName: AWS Basic Concepts
+roomName: AWS Basic Concepts Test
 learningPath: Attacking and Defending AWS
 pubDate: Today
 img: https://fakeimg.pl/640x360

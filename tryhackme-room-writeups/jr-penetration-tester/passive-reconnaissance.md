@@ -1,5 +1,5 @@
 ---
-roomName: Passive Reconnaissance
+roomName: Passive Reconnaissance Test
 learningPath: Jr Penetration Tester
 pubDate: Today
 img: https://fakeimg.pl/640x360
