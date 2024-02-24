@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Tara-Cloud/docker-action-test
+        uses: Tara-Cloud/docker-action-test@v1
         with:
           who-to-greet: 'Tara'
       - name: Get the output time
