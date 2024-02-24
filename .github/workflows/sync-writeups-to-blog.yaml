@@ -1,9 +1,6 @@
 name: Sync TryHackMe writeups to Blog
 
-on:
-  push:
-    paths:
-      - 'tryhackme-room-writeups/**'
+on: [push]
 
 jobs:
   sync:
