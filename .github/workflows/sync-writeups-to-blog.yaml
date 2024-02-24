@@ -16,7 +16,7 @@ jobs:
         with:
           source-files: 'tryhackme-room-writeups/'
           destination-username: 'Tara-Cloud'
-          destination-repository: 'https://github.com/Tara-Cloud/vercel-personal-site.git'
+          destination-repository: 'vercel-personal-site'
           destination-directory: 'src/pages/blog/tryhackme/tryhackme-room-writeups'
           destination-branch: 'main'
           commit-email: 'tara.schoenherr@gmail.com'
