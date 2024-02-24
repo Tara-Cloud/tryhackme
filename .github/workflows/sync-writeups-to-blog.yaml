@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Push updated TryHackMe dir to corresponding blog directory
-        uses: Tara-Cloud/push-files-to-another-repository@v1.0.5
+        uses: Tara-Cloud/push-files-to-another-repository@v1.0.6
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
