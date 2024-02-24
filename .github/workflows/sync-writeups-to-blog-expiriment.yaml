@@ -11,7 +11,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: 'repo/tryhackme-room-writeups/'
+          source-files: 'tryhackme-room-writeups/'
           destination-username: 'Tara-Cloud'
           destination-repository: 'vercel-personal-site'
           destination-directory: 'src/pages/blog/tryhackme/tryhackme-room-writeups'
