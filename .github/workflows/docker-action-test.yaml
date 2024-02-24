@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: Tara-Cloud/docker-action-test@v1.1
+        uses: Tara-Cloud/push-files-to-another-repository@v1.0.0
         with:
           who-to-greet: 'Tara'
       - name: Get the output time
