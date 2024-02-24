@@ -9,33 +9,14 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source repository
-        uses: actions/checkout@v2
-
-      - name: Configure git
-        run: |
-          git config --global user.email "tara.schoenherr@gmail.com"
-          git config --global user.name "Tara s"
-
-      - name: Sync directory
+      - name: Push updated TryHackMe dir to corresponding blog directory
+        uses: nkoppel/push-files-to-another-repository@1.1.0
         env:
-          TARGET_REPO: https://github.com/Tara-Cloud/vercel-personal-site.git
-          TARGET_REPO_TOKEN: ${{ secrets.BLOG_SYNC_TOKEN }}
-          SOURCE_DIR: tryhackme-room-writeups
-          TARGET_DIR: src/pages/blog/tryhackme/tryhackme-room-writeups
-        run: |
-          # Clone the target repository
-          git clone $TARGET_REPO target-repo
-          # Navigate into the target repository directory
-          cd target-repo
-          # Checkout a new branch for the changes
-          git checkout -b sync-branch
-          # Remove existing contents of TARGET_DIR (optional)
-          rm -rf $TARGET_DIR
-          # Copy the SOURCE_DIR contents to the target directory
-          cp -R ../$SOURCE_DIR ./$TARGET_DIR
-          # Add and commit changes
-          git add .
-          git commit -m "Sync $SOURCE_DIR from source repository"
-          # Push changes using the PAT for authentication
-          git push --set-upstream origin sync-branch -f https://${TARGET_REPO_TOKEN}@${TARGET_REPO#https://}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-files: 'tryhackme-room-writeups/'
+          destination-username: 'Tara-Cloud'
+          destination-repository: 'https://github.com/Tara-Cloud/vercel-personal-site.git'
+          destination-directory: 'src/pages/blog/tryhackme/tryhackme-room-writeups'
+          destination-branch: 'main'
+          commit-email: 'tara.schoenherr@gmail.com'
