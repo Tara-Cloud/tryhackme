@@ -10,6 +10,5 @@ jobs:
         uses: Tara-Cloud/docker-action-test
         with:
           who-to-greet: 'Tara'
-      # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
