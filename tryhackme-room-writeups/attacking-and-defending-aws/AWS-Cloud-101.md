@@ -1,7 +1,7 @@
 ---
 roomName: AWS Cloud 101
 learningPath: Attacking and Defending AWS
-pubDate: Today
+pubDate: Tod
 img: https://fakeimg.pl/640x360
 ---
 

@@ -1,7 +1,7 @@
 ---
 roomName: AWS Basic Concepts
 learningPath: Attacking and Defending AWS
-pubDate: Today
+pubDate: Tod
 img: https://fakeimg.pl/640x360
 ---
 

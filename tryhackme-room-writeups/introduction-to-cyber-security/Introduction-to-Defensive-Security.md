@@ -1,7 +1,7 @@
 ---
 roomName: Introduction to Defensive Security
 learningPath: Introduction to Cyber Security
-pubDate: Today
+pubDate: Tod
 img: https://fakeimg.pl/640x360
 ---
 
